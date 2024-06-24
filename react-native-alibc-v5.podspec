@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.source_files = "ios/**/*.{h,m,mm}"
 
-  s.vendored_frameworks = 'ios/Frameworks/*/*.framework'
+  s.vendored_frameworks = 'ios/framework/*/*.framework'
   s.dependency 'FMDB'
   s.dependency 'Masonry'
   s.dependency 'Reachability'
